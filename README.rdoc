@@ -1,0 +1,16 @@
+= Redmine Wysiwyg plugin
+
+This plugin adds the text formatting for using CKEditor to Redmine.
+
+== Requirements
+
+* Redmine 2.2.4 or higher
+
+== Plugin installation and setup
+
+1. Copy the plugin directory into the plugins directory (make sure the name is redmine_wysiwyg)
+2. Install the required gems
+    bundle install --without development test
+3. Start Redmine
+4. Change text formatting (Administration > Settings > General > Text formatting) to CKEditor
+5. Configure the plugin (Administration > Plugins > Configure)
