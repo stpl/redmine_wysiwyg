@@ -8,7 +8,7 @@ end
 
 Redmine::Plugin.register :redmine_wysiwyg do
   name 'redmine_wysiwyg'
-  author 'Systango Pvt Ltd'
+  author 'Systango'
   description 'This is a CKEditor plugin for Redmine'
   version '1.0.0'
   requires_redmine :version_or_higher => '2.2.4'
