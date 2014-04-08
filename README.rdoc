@@ -14,3 +14,5 @@ This plugin adds the text formatting for using CKEditor to Redmine.
 3. Start Redmine
 4. Change text formatting (Administration > Settings > General > Text formatting) to CKEditor
 5. Configure the plugin (Administration > Plugins > Configure)
+
+This software is licensed under the terms of the GNU General Public License (GPL) v2. See COPYRIGHT and COPYING for details.
