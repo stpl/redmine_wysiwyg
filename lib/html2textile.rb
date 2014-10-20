@@ -69,7 +69,7 @@ class HTMLToTextileParser < SgmlParser
 
   def make_quicktag_end_pair(wrapchar)
     stop_capture_and_write
-    write([wrapchar])
+    write("#{wrapchar} ")
   end
   
   def write(d)
